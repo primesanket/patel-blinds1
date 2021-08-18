@@ -191,9 +191,6 @@
         }
     });
 
-    // Nice Select JS
-    $('select').niceSelect();
-
     // Tabs Single Page
     $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
     $('.tab ul.tabs li a').on('click', function (g) {
@@ -307,7 +304,7 @@
     });
 
     // WOW JS
-    new WOW().init();
+    //new WOW().init();
 
     // Preloader JS
     jQuery(window).on('load',function(){
